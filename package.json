@@ -1,6 +1,6 @@
 {
   "name": "react-vibes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React JS - Add Reactions To Your Content or WebPages",
   "main": "build/index.js",
   "peerDependencies": {
