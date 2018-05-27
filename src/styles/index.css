@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300|Merriweather:400,300,700);
+#container-emoji {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.reaction {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+.reaction:hover .emoji {
+    transform: scale(1.1, 1.1);
+    transition: all 0.1s;
+}
+.reaction:hover .text {
+    color: #222;
+    transition: all 0.1s;
+}
+
+.reaction .emoji {
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.reaction .count {
+    position: absolute;
+    top: -1em;
+    right: 0;
+    border-radius: 1.75em;
+    min-width: 1.25em;
+    height: 1.75em;
+    font: 600 0.9em "Muli", arial, sans-serif;
+    background: #e84855;
+    color: white;
+    border: 0.25em solid white;
+    padding: 0 0.25em;
+    cursor: pointer;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.reaction .text {
+    font: 400 1em/2.5em "Muli", arial, sans-serif;
+    color: #ccc;
+    cursor: pointer;
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
